@@ -118,15 +118,32 @@
 // console.log(checkNumber(-3));
 // console.log(checkNumber(0));
 
-let score = 59.5;
-if (score >= 90 && score <= 100) {
-  console.log("Grade A");
-} else if (score >= 80 && score <= 89) {
-  console.log("Grade B");
-} else if (score >= 70 && score <= 79) {
-  console.log("Grade C");
-} else if (score >= 60 && score <= 69) {
-  console.log("Grade D");
-} else if (score < 60) {
-  console.log("Grade F");
+// let number = 2;
+// if (number > 0)
+//   {
+//       console.log ("Positive");
+//     } else if (number < 0) {
+//       console.log ("Negative");
+//     } else (number = 0) {
+//       console.log ("Zero");
+//     }
+
+// let score = 59.5;
+// if (score >= 90 && score <= 100) {
+//   console.log("Grade A");
+// } else if (score >= 80 && score <= 89) {
+//   console.log("Grade B");
+// } else if (score >= 70 && score <= 79) {
+//   console.log("Grade C");
+// } else if (score >= 60 && score <= 69) {
+//   console.log("Grade D");
+// } else if (score < 60) {
+//   console.log("Grade F");
+// }
+
+let str = "Hello";
+if (str) {
+  console.log("truthy");
+} else {
+  console.log("falsy");
 }
